@@ -1,0 +1,96 @@
+.todo-app {
+    width: 400px;
+    height: 550px;
+    border-radius: 5%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .complete-btn,
+  .undo-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .completed .todo-text {
+    text-decoration: line-through;
+  }
+  .filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter button {
+    margin: 0 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter button.active {
+    background-color: #5bc0de;
+    color: white;
+  }
+  
